@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Team</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Friconix-->
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Poppins:wght@200;300;400&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+     <!--navbar--> 
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <a class="navbar-brand" href="index.html"><h1>TechArts<img src="logo.png"></h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="team.html">team</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="services.html">services</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="partners.html">partners</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">contact us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://forms.gle/Yx2yrEpjZrGup9p99" target="_blank">get involved</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-item active">
+        <a href="donations.html"><button type="button" class="btn nav-button">donate</button></a>
+      </div>
+    </nav>
+  <!-- team -->
+    <section id="teamHead">
+      <section class="sectionHead">
+        <h2>Our Team</h2>
+        <p id="Under">Meet the team that makes this program possible!</p>
+      </section>
+    </section>
+    <section id="team" class="team">
+      <br>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/1_v68zckin/def_height/977/def_width/650/version/100011/type/1"></img>
+          <h3>Reshma Saujani</h3>
+          <h4>Founder & CEO</h4>
+          <p>Reshma founded TechArts NYC so others can combine their love of technology and the arts.</p>
+        </div>
+        <div class="col-md-3">
+          <img src="https://techbullion.com/wp-content/uploads/2020/07/Chris-Hubb.png"></img>
+          <h3>Chris Hlubb</h3>
+          <h4>Program Director</h4>
+          <p>Chris outlines, plans, and develops the activities TechArts NYC offers. He makes sure it is carried out successfully.</p>
+        </div>
+        <div class="col-md-3">
+          <img src="https://i.pinimg.com/originals/e4/ae/68/e4ae68ab1e42a05fa2f2f52d628dfd5a.jpg"></img>
+          <h3>Rebecca Bonner</h3>
+          <h4>Art Teacher</h4>
+          <p>Rebecca is our program's art teacher. She teaches painting, sculpting, photography, and more!</p>
+        </div>
+        <div class="col-md-3">
+          <img src="https://www.aclunc.org/sites/default/files/Asia%20Alman.png"></img>
+          <h3>Gina Alman</h3>
+          <h4>Computer Science Consultant</h4>
+          <p>Gina makes sure our engineering and computer science needs are met. She also teaches Python, HTML, and CSS.</p>
+        </div>
+      </div>
+   </section>
+    <section class="footer">
+      <br>
+      <div class="row">
+        <div class="col-md-3">
+          <a class="footer-brand" href="index.html"><h1>TechArts<img src="logo.png"></h1></a>
+          <a href="https://www.instagram.com/" class="socials" target="_blank"><i class="fi-xnsuxx-instagram"></i></a>
+          <a href="https://twitter.com/?lang=en" class="socials" target="_blank"><i class="fi-xnsuxx-twitter"></i></a>
+          <a href="https://www.facebook.com/" class="socials" target = "_blank"><i class="fi-snsuxx-facebook"></i></a>
+        </div>
+  
+        <div class ="col-md-3">
+          <h4 class ="title">resources</h4>
+          <p>Privacy</p>
+          <p>Support</p>
+          <p>Contact Us</p>
+          <p>Terms and Conditions</p>
+          </p>
+        </div>
+
+        <div class="col-md-3">
+         <h4 class ="title">where to find us</h4>
+         <p style = ><i class="fi-xnluxl-building"></i>Po Box 133 New York, NY, 10002</p>
+         <p><i class="fi-xwluxl-envelope-wide" style="font-size: 0.73em;padding-top:0px;"></i>techarts@gmail.com</p>
+         <p><i class="fi-xwlrxl-phone-wide"></i>(212) 909-7643</p>
+         <br>
+       </div>
+
+        <div class ="col-md-3">
+          <h4 class"title">newsletter subscription</h4>
+          <p>Subscribe to receive news about TechArts</p>
+          <div class="form-group">
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email Address">
+          </div>
+          <button class = "btn" id="navBut" onclick="myFunction()">subscribe</button>
+          <script>
+            function myFunction() {
+              alert("Thank you for subscribing!");
+            }
+          </script>
+        </div>
+      </div>
+      <br>
+      <br>
+      <p class="copyright">TechArts NYC Inc.<i class="fi-cnluxm-copyright copyrightIcon" style="font-size: 0.93em;"></i>2020 All Rights Reserved</p>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>
